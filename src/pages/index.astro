@@ -1,0 +1,34 @@
+---
+import { useStoryblokApi } from '@storyblok/astro'
+// Component Imports
+import Button from '../components/Button.astro';
+import Demo from '../layouts/Demo.astro';
+import StoryblokComponent from '@storyblok/astro/StoryblokComponent.astro'
+// import Posts from '../layouts/Posts.astro';
+
+// const storyblokApi = useStoryblokApi();
+// const { data } = await storyblokApi.get('cdn/stories/home', {
+//   version: import.meta.env.DEV ? "draft" : "published",
+// });
+// const content = data.story.content;
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro + TailwindCSS</title>
+	</head>
+
+	<body>
+		<div class="grid place-items-center content-center">
+			<!-- <StoryblokComponent blok={content} /> -->
+			<Demo />
+		</div>
+	</body>
+</html>

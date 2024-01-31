@@ -1,0 +1,29 @@
+---
+const { type, name, image } = Astro.props
+---
+
+<div class="bg-white overflow-hidden shadow rounded-lg">
+  <div class="p-5">
+    <div class="flex flex-col">
+        <img
+          alt="Next.js Boilerplate template preview placeholder"
+          src={`https://picsum.photos/seed/${name}/200/90`}
+          height="90"
+          width="200"
+        />
+      <div class="flex-1">
+        <dl>
+          <dt class="text-sm font-medium text-gray-500 truncate">{type}</dt>
+          <dd>
+            <div class="text-lg font-medium text-gray-900">{name}</div>
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <div class="bg-gray-50 px-5 py-3">
+    <div class="text-sm">
+      <a class="font-medium hover:text-indigo-500" href="#">Detalle</a>
+    </div>
+  </div>
+</div>

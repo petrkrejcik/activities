@@ -1,0 +1,27 @@
+[
+  {
+    "type": "Deporte",
+    "name": "Patinaje artístico",
+    "image": "https://picsum.photos/seed/picsum/200/300"
+  },
+  {
+    "type": "Deporte",
+    "name": "Multideporte",
+    "image": "https://placehold.co/300x200?text=Multideporte"
+  },
+  {
+    "type": "Deporte",
+    "name": "Fútbol",
+    "image": "https://placehold.co/300x200?text=Fútbol"
+  },
+  {
+    "type": "Deporte",
+    "name": "Baloncesto",
+    "image": "https://placehold.co/300x200?text=Baloncesto"
+  },
+  {
+    "type": "Deporte",
+    "name": "Tenis",
+    "image": "https://placehold.co/300x200?text=Tenis"
+  }
+]
